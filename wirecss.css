@@ -38,6 +38,7 @@ h1{
     height: 45px;
     
 }
+/*floats left of #mainArticke*/
 #relatedNews{
     float: left;
     position: relative;
@@ -46,13 +47,14 @@ h1{
     display: inline-block;
     
 }
+/*Center between #relatedNews and #ads*/
 #mainArticle{
     display: inline-block;
     position: absolute;
     
 }
+/*floats on right side of #mainArticle*/
 #ads{
-    background-color:#000000;
     float: right;
     position: relative;
     max-height: 1000px;
@@ -80,11 +82,13 @@ h1{
 .col-12 {width: 100%;}
 
 /*media*/
+/*Keeps #mainArticle centered*/
 @media screen and (min-width:1101px){
     #mainArticle{
         position: relative;
     }
 }
+/*floats #relatedNews and #ads to right #mainArticle becomes absolute*/
 @media screen and (max-width:1100px){
 
     #relatedNews{
@@ -94,6 +98,7 @@ h1{
         width: 33.33%;
         
     }
+    /*Clears below #relatedNews*/
     #ads{
         position: relative;
         display: block;
@@ -104,7 +109,7 @@ h1{
     }
 }
 
-
+/*#relatedNews and #ads sit below #mainArticle */
 @media screen and (max-width:650px){
     #mainArticle{
         position: relative;
@@ -125,7 +130,7 @@ h1{
         
     }
 }
-
+/*Removes margin on smaller devices*/
 @media screen and (max-width:500px){
     *{
         margin: 0;
