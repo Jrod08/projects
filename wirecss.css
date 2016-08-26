@@ -49,16 +49,15 @@ h1{
 #mainArticle{
     display: inline-block;
     position: absolute;
-    margin-left: 10px;
-    top: -4px;
     
 }
 #ads{
-    position: relative;
+    background-color:#000000;
     float: right;
-    display: inline-block;
-    max-height: 500px;
+    position: relative;
+    max-height: 1000px;
     overflow: hidden;
+    display: inline-block;
 }
 
 /*Colors*/
