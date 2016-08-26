@@ -50,7 +50,8 @@ h1{
 /*Center between #relatedNews and #ads*/
 #mainArticle{
     display: inline-block;
-    position: absolute;
+    position: relative;
+    margin:5px;
     
 }
 /*floats on right side of #mainArticle*/
