@@ -83,10 +83,10 @@ h1{
 .col-12 {width: 100%;}
 
 /*media*/
-/*Keeps #mainArticle centered*/
-@media screen and (min-width:1101px){
+/*#mainArticle becomes absolute*/
+@media screen and (max-width:1098px){
     #mainArticle{
-        position: relative;
+        position: absolute;
     }
 }
 /*floats #relatedNews and #ads to right #mainArticle becomes absolute*/
