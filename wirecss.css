@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+   
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+hr{
+    margin: 0px 51px 0px 51px;
+    border-color: #FAFAFA;
+}
+h1{
+    display: inline-block;
+}
+
+
+/*containers*/
+.container{
+    position: relative;
+    margin: 5px;
+}
+/*text classes*/
+.text-center{
+    text-align: center;
+}
+.card-text{
+    margin: 8px;
+}
+
+/*id's*/
+#header{
+    position: relative;
+    top: 0;
+    height: 45px;
+    
+}
+#relatedNews{
+    float: left;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+#mainArticle{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    top: -4px;
+    
+}
+#ads{
+    position: relative;
+    float: right;
+    display: inline-block;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/*Colors*/
+.white{
+    background: #FFFFFF;
+}
+
+/*grid*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 65%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*media*/
+@media screen and (min-width:1101px){
+    #mainArticle{
+        position: relative;
+    }
+}
+@media screen and (max-width:1100px){
+
+    #relatedNews{
+        position: relative;
+        float: right;
+        display: block;
+        width: 33.33%;
+        
+    }
+    #ads{
+        position: relative;
+        display: block;
+        clear: both;
+        float: right;
+        width: 33.33%;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:650px){
+    #mainArticle{
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    #relatedNews{
+        float: none;
+        display: inline-block;
+        width: 49%;
+    
+    }
+    #ads{
+        display: inline-block;
+        float: none;
+        width: 49%;
+        margin-left: 5px;
+        
+    }
+}
+
+@media screen and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        margin: 0;
+    }
+    #mainArticle{
+        width:inherit;
+        margin: 0;
+    }
+    #relatedNews{
+        width: inherit;
+        margin: 0;
+    }
+    #ads{
+        width: inherit;
+        margin: 0; 
+    }
+}
