@@ -55,7 +55,7 @@ h1{
     
 }
 /*floats on right side of #mainArticle*/
-#ads{
+#spons{
     float: right;
     position: relative;
     max-height: 500px;
@@ -100,7 +100,7 @@ h1{
         
     }
     /*Clears below #relatedNews*/
-    #ads{
+    #spons{
         position: relative;
         display: block;
         clear: both;
@@ -123,7 +123,7 @@ h1{
         width: 49%;
     
     }
-    #ads{
+    #spons{
         display: inline-block;
         float: none;
         width: 49%;
@@ -148,7 +148,7 @@ h1{
         width: inherit;
         margin: 0;
     }
-    #ads{
+    #spons{
         width: inherit;
         margin: 0; 
     }
